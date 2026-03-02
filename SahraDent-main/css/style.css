@@ -1,0 +1,21 @@
+<style>
+        /* Sitenin Hızlı Açılması İçin Temel ve Hafif CSS */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero-section {
+            /*  optimize  bir klinik görseli (WebP formatında) eklenicek tercihe bağlı olarak */
+            background-color: #f8f9fa; 
+            padding: 100px 0;
+            border-bottom: 2px solid #0d6efd;
+        }
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        }
+        html { scroll-behavior: smooth; }
+    </style>
